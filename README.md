@@ -6,9 +6,9 @@ how to use it
 
 `from Pageviews.signals import object_viewed_signal`
 
-to your views.py file 
+**to your views.py file** 
 
-and then use it with you views for example lets use it with the detail views
+and then use it with you **views** for example lets use it with the detail views
 
 ```
 def detail(request,id):
@@ -20,7 +20,7 @@ def detail(request,id):
     return render(request,'detail.html',context)
 ```
 
-you can use it with CBV as will it will be like 
+you can use it with **CBV** as will it will be like 
 
 
 make this import in your views
