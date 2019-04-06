@@ -19,4 +19,6 @@
 #     print(i)
 #     for f in i.values():
 #         print(f)
-#         g.append(f)
+#         var.append(f)
+
+#print(var) # this will print list of emails you can use it .
